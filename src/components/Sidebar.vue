@@ -8,6 +8,7 @@
       </div>
 
       <div class="logout" @click="onLogout">
+<!--        退出按钮-->
         <i class="iconfont icon-logout"></i>
       </div>
 
@@ -15,10 +16,11 @@
   </template>
 
 <script>
-  import avatar from '@/components/Avatar'
-  import Avatar from "./Avatar";
+
+
+  import avatar from "./Avatar";
   export default {
-    components: {Avatar},
+    components: {avatar},
     methods:{
       onLogout(){
         console.log('1')
