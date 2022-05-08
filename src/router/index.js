@@ -5,7 +5,6 @@ import NotebookList from '@/components/NotebookList'
 import NoteDetail from '@/components/NoteDetail'
 import TrashDetail from '@/components/TrashDetail'
 
-
 Vue.use(Router)
 
 export default new Router({
